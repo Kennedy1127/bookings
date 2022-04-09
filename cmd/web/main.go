@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/Kennedy/bookings/pkg/config"
-	"github.com/Kennedy/bookings/pkg/handlers"
-	"github.com/Kennedy/bookings/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/Kennedy/bookings/internal/config"
+	"github.com/Kennedy/bookings/internal/handlers"
+	"github.com/Kennedy/bookings/internal/render"
 
 	"github.com/alexedwards/scs/v2"
 )
